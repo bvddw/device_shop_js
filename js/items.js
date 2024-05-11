@@ -1317,7 +1317,7 @@ class webSite {
     inputElement.placeholder = 'Enter device name'
     let searchButton = document.createElement('button')
     searchButton.innerText = 'Search'
-    searchButton.className = 'search'
+    searchButton.className = 'search btn btn-info'
     inputElementDiv.appendChild(inputElement)
     inputElementDiv.appendChild(searchButton)
 
